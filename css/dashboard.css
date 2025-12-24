@@ -1,0 +1,187 @@
+/* ===============================
+   DASHBOARD – FINAL VERSION
+=============================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 12px;
+    font-family: "Times New Roman", Times, serif;
+    background-color: #cfd2ff;
+    color: #000;
+    font-size: 14px;
+}
+
+/* ===== HEADER ===== */
+header {
+    background-color: #2a2343;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 22px;
+}
+
+/* ===== TOP ACTIONS ===== */
+.top-actions {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.top-actions button {
+    padding: 6px 14px;
+    font-size: 13px;
+    font-weight: bold;
+    background-color: #6ea4e2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.top-actions button:hover {
+    background-color: #5a92d1;
+}
+
+/* ===== GOAL BOX ===== */
+.goal-box {
+    background: #ffffff;
+    border: 1px solid #999;
+    border-radius: 10px;
+    padding: 12px;
+    margin-bottom: 12px;
+}
+
+.goal-box strong {
+    font-size: 15px;
+}
+
+.progress-bar {
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-top: 6px;
+}
+
+.progress {
+    height: 100%;
+    background-color: #4caf50;
+}
+
+/* ===== FILTER ===== */
+form.filter {
+    background: #ffffff;
+    border: 1px solid #999;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 14px;
+}
+
+form.filter label {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+form.filter input {
+    font-size: 13px;
+    padding: 4px;
+    margin-right: 8px;
+}
+
+form.filter button {
+    padding: 5px 12px;
+    font-size: 13px;
+}
+
+/* ===== TABLE ===== */
+.table-wrapper {
+    max-height: 360px;
+    overflow-y: auto;
+    border: 1px solid #555;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #2a2343;
+    color: white;
+    font-size: 13px;
+    padding: 7px;
+    border: 1px solid #444;
+    position: sticky;
+    top: 0;
+}
+
+td {
+    font-size: 13px;
+    padding: 7px;
+    border: 1px solid #777;
+    text-align: center;
+    vertical-align: top;
+}
+
+tr:nth-child(even) {
+    background-color: #eef0ff;
+}
+
+/* ⭐ ROW HOVER ⭐ */
+tbody tr:hover {
+    background-color: #c6d4ff;
+}
+
+/* ===== ACTION LINKS ===== */
+.actions a {
+    font-size: 13px;
+    margin: 0 6px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* ===== CHARTS ===== */
+.charts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+.chart-box {
+    background: #ffffff;
+    border: 1px solid #999;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.chart-box h3 {
+    font-size: 15px;
+    margin: 0 0 8px;
+    text-align: center;
+}
+
+canvas {
+    width: 100% !important;
+    height: 190px !important;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 1000px) {
+    .charts {
+        grid-template-columns: 1fr;
+    }
+}
