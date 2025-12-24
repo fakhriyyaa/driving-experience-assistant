@@ -1,4 +1,3 @@
-HEAD
 # 🚗 Driving Experience Assistant
 
 A web application to record, manage, and analyze driving experiences.
