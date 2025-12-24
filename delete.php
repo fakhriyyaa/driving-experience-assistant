@@ -1,5 +1,5 @@
 <?php
-require "includes/pdo_connect.php";
+require "includes/pdo_connect.local.php";
 define('SECRET_KEY', 'HWPROJECT2025');
 
 if (!isset($_GET['code'])) {

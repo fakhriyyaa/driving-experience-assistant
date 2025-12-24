@@ -1,6 +1,6 @@
 <?php
 session_start();
-require "includes/pdo_connect.php";
+require "includes/pdo_connect.local.php";
 
 define('SECRET_KEY', 'HWPROJECT2025');
 $goal = 3000;
