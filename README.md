@@ -36,4 +36,4 @@ hwproject/
 5. Run the project on a local server (XAMPP / AlwaysData)
 
 ## 👩‍💻 Author
-**Fakhriyya Huseynova
+Fakhriyya Huseynova
