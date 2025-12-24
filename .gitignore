@@ -1,5 +1,5 @@
 # Ignore database connection with credentials
-pdo_connect.php
+pdo_connect.local.php
 
 # OS files
 .DS_Store
