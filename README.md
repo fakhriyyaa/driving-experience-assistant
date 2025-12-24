@@ -38,5 +38,3 @@ hwproject/
 
 ## 👩‍💻 Author
 **Fakhriyya Huseynova
-# hwproject
-0e1a29ea75c63af58d1ea67c21fa268ca3534789
